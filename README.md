@@ -7,8 +7,11 @@ Download project __mvc.reporting__
 
 See
 
- * /controllers/HomeController
+ * /Controllers/HomeController.cs
  * /Bll/Report.cs
+ * /Models/ReportModel.cs
+ * /Reports/Report.rdlc
+ * /Reports/ReportDataSet.xsd
 
 
 
