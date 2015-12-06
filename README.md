@@ -33,6 +33,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=29065
 
 
 or nuget package "[Microsoft.SqlServer.Types >= 11.0.2](https://www.nuget.org/packages/Microsoft.SqlServer.Types/)"
+but i find it adds too many dependencies, so having sql server types on server is probably a better solution, if you can manage the server.
 
-but i find it adds too many dependencies, so having sql server types on server is probably a better solution.
+On Azure you will need to add Microsoft.SqlServer.Types via nuget because they do not exist by default on Azure.
 
