@@ -1,0 +1,26 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+<div class="row">
+    <div class="col-md-12">
+        <div class="jumbotron">
+            <h1 style="word-break: break-all">Microsoft.ReportViewer.Web.2012</h1>
+            <p>...</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>ReportViewer: PDF</h2>
+        <p><a class="btn btn-default" href="@Url.Action("Report", "Home", new {reportType = "pdf"})">View &raquo;</a></p>
+        <p><a class="btn btn-default" href="@Url.Action("Report", "Home", new { reportType = "pdf", download = true })">Download &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>ReportViewer: WORD</h2>
+        <p><a class="btn btn-default" href="@Url.Action("Report", "Home", new { reportType = "word", download = true })">Download &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>ReportViewer: EXCEL</h2>
+        <p><a class="btn btn-default" href="@Url.Action("Report", "Home", new { reportType = "excel", download = true })">Download &raquo;</a></p>
+    </div>
+</div>
